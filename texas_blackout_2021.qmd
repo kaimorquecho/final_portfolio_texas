@@ -647,7 +647,7 @@ census_tract_blackout_map1 <- tm_shape(census_tract_no_blackout) +
               palette = rev(hcl.colors(7,"Batlow")),
           legend.show = FALSE) +
   tm_layout(fontfamily = "courier",
-            main.title = "Houston census tracts' household median income",
+            main.title = "Texas census tracts' household median income",
             bg.color = "lightblue",
             outer.margins = c(0.01, 0.04, 0.01, 0.04),
             inner.margins = 0,
